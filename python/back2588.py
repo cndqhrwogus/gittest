@@ -5,8 +5,6 @@ c= []
 c.append(a*int(b[2]))
 c.append(a*int(b[1]))
 c.append(a*int(b[0]))
-c.append(c[0]+c[1]*10+c[2]*100)
-print(c[0])
-print(c[1])
-print(c[2])
-print(c[3])
+c.append(a*int(b))
+for number in range(len(c)):
+    print(c[number])
